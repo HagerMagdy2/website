@@ -240,3 +240,25 @@ flex-direction: column;
   gap: 15px;
 }
 
+/* clients */
+.clients{
+  padding: 30px 0;
+}
+.clients .container{
+  display: flex;
+  gap: 20px;
+}
+.clients .container>div{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.clients .container img{
+  width: 50%;
+  filter: grayscale(100%);
+  opacity: 50%;
+}
+.clients .container>div:hover img{
+  filter: grayscale(0%);
+  opacity: 100%;
+}
